@@ -1,0 +1,75 @@
+:root{
+    --primary-color: rgb(54, 53, 59);
+}
+html{
+        background-color: var(--primary-color);
+    }
+    .header {
+        padding: 20px;
+        background-color: rgb(109, 99, 122);
+        align-items: center;
+         display: flex;
+    }
+        #add-card-btn {
+    
+            float:inline-end;
+            margin-left: 75%;
+        }
+
+        .header h1 {
+            float:inline-start;
+            font-size: 25px;
+        }
+
+.board {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    min-height: max-content;
+    background-color: var(--primary-color)
+}
+
+.column {
+    width: 30%;
+    border-style: outset;
+    border-radius: 5px;
+    padding: 10px;
+
+}
+
+.column-header {
+    background-color: var(--primary-color);
+    color: beige;
+    font-size: 20px;
+    padding: 5px;
+    text-align: center;
+
+}
+
+.card {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.card:hover {
+    background-color: #f0f0f0;
+}
+
+.card-details {
+    display:none;
+}
+
+.card-details.show {
+    display: block;
+}
+
+.delete-btn:hover {
+background-color: brown;
+}
+
+.edit-btn:hover {
+background-color: chocolate;
+}

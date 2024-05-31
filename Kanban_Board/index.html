@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Kanban Board</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <div class="header">
+            <h1>Kanban Board</h1>
+            <!-- Adicionar card --> 
+            <button id="add-card-btn" class="btn btn-primary">
+                <img src="src/add_FILL0_wght400_GRAD0_opsz24 (1).png" alt="">
+            </button>
+
+            <!-- Modal Adicionar card -->
+            <div class="modal fade" id="addCardModal" tabindex="-1" role="dialog" aria-labelledby="addCardModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <h5 class="modal-title" id="addCardModalLabel">Adicionar Novo Card</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    </div>
+                    
+                    <!--informaçoes para input no card-->
+                    <div class="modal-body">
+                        <div class="form-group">
+                            <label for="columnId">Em qual coluna você deseja adicionar o novo card?</label>
+                            <select class="form-control" id="columnId">
+                                <option value="todo">A fazer</option>
+                                <option value="in-progress">Em andamento</option>
+                                <option value="done">Finalizado</option>
+                            </select>
+                        </div>
+                        
+
+                        <div class="form-group">
+                            <label for="priority">Prioridade:</label>
+                            <select type="text" class="form-control" id="priority">
+                                <option value="Alta">Alta</option>
+                                <option value="Média">Média</option>
+                                <option value="Baixa">Baixa</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="description">Descrição:</label>
+                            <input type="text" class="form-control" id="description">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="deadline">Prazo:</label>
+                            <input type="date" class="form-control" id="deadline">
+                        </div>
+                    </div>
+
+                    <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                    <button type="button" class="btn btn-primary" id="save-card-btn">Salvar</button>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="board">
+        <div class="column" id="todo" ondrop="drop(event)" ondragover="allowDrop(event)">
+            <div class="column-header">Pendente</div>
+        </div>
+        <div class="column" id="in-progress" ondrop="drop(event)" ondragover="allowDrop(event)">
+            <div class="column-header">Em andamento</div>
+        </div>
+        <div class="column" id="done" ondrop="drop(event)" ondragover="allowDrop(event)">
+            <div class="column-header">Concluído</div>
+        </div>
+        </div>
+
+
+
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <script src="script.js"></script>
+
+    </body>
+</html>
