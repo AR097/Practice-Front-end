@@ -1,0 +1,44 @@
+*{
+  margin: 0 0 0 0;
+}
+.header{
+    background-color: rgb(131, 115, 146);
+    padding: 25px;
+    border-bottom: 5px solid rgb(31, 31, 31);
+
+}
+html{
+  background-color: rgb(0, 0, 0);
+}
+#container {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 50px auto;
+  }
+  
+  #drag-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .draggable {
+    width: 100px;
+    height: 50px;
+    background-color: #ccc;
+    margin-bottom: 10px;
+    text-align: center;
+    line-height: 50px;
+    cursor: grab;
+  }
+  
+  #trash-can {
+    width:  200px;
+    height: 200px;
+    border: 5px black solid;
+    cursor: pointer;
+    background-image: url(src/lixeira.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
