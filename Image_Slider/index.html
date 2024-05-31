@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Image Slider</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="conteiner">
+        <div class="slides">
+            <input class="input" type="radio" name="slide" id="slide1" checked>
+            <input class="input" type="radio" name="slide" id="slide2">
+            <input class="input" type="radio" name="slide" id="slide3">
+            <input class="input" type="radio" name="slide" id="slide4">
+            <div class="slide s1">
+                <img src="./img/img1.jpg" alt="">
+            </div>
+            <div class="slide">
+                <img src="./img/img2.jpg" alt="">
+            </div>
+            <div class="slide">
+                <img src="./img/img3.jpg" alt="">
+            </div>
+            <div class="slide">
+                <img src="./img/img4.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="navegação">
+        <label class="bar" for="slide1"></label>
+        <label class="bar" for="slide2"></label>
+        <label class="bar" for="slide3"></label>
+        <label class="bar" for="slide4"></label>
+    </div>
+</body>
+<script src="./script.js"></script>
+</html>
