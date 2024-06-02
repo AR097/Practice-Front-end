@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    scrollbar-width:none;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(
+        rgb(0, 0, 0)15%,rgb(36, 9, 34),rgb(58, 26, 57));
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+  }
+
+header {
+    background: #0000007a;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    width: 95%;
+    height: 100px;
+    z-index: 1000;
+    top: 0;
+}
+
+header img{
+    width: 50px;
+    border-radius: 50%;
+}
+header .NameHeader{
+    color: #ffffff;
+    font-size: 25px;
+}
+
+header .menuheader {
+    display: flex;
+    gap: 20px;
+}
+
+header .menuheader a {
+    padding: 5px;
+    text-decoration: none;
+    color: #caadad;
+    font-weight: 200;
+    cursor: pointer;
+}
+
+header .menuheader a:hover {
+    background: rgb(128, 26, 148);
+    border-radius: 5%;
+    box-shadow: 0px 0px 10px rgb(255, 255, 255);
+}
+
+header .hamburger {
+    display: none;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+/*Responsividade */
+@media (max-width: 768px) {
+    header {
+        padding: 0 20px;
+    }
+
+    header .menuheader {
+        display: none;
+        flex-direction: column;
+        gap: 10px;
+        width: 40%;
+        background-color: #2d2c31;
+        position: absolute;
+        top: 100px;
+        right: 0;
+        z-index: 1001;
+    }
+
+    header .menuheader.show {
+        display: flex;
+    }
+
+    header .hamburger {
+        display: block;
+        color: #ffffff;
+    }
+}
