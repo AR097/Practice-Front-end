@@ -1,5 +1,5 @@
 # Projects-WEB Development
-Projects create for studying  HTML, CSS and JS  | Each folder references a single project. 
+Projects create for studying  HTML, CSS and JS  | Each folder references a single project. <br>
 ![Last Commit](https://img.shields.io/github/last-commit/AR097/Practice-Web-Development)
 ![Open Issues](https://img.shields.io/github/issues/AR097/Practice-Web-Development)
 ![Forks](https://img.shields.io/github/forks/AR097/Practice-Web-Development?style=social)
@@ -8,7 +8,14 @@ Projects create for studying  HTML, CSS and JS  | Each folder references a singl
 # Índice:
 1. Buscador de Cep
 2. Cronomêtro
-3. 
+3. Drag and Drop
+4. Galeria Estilo Pinterest
+5. Hamburguer menu
+6. Image slide
+7. KanBan Board
+8. Projetos curso WEB
+
+# Projetos
 <!--Buscador de Cep-->
 <!--Buscador de Cep-->
 <details>
