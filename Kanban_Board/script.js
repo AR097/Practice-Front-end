@@ -55,12 +55,25 @@ function addCard(columnId, priority, description, deadline) {
     card.addEventListener('dragstart', drag);
    
     card.innerHTML = `
-        <strong>    Prioridade: </strong>   ${priority}   <br>
-        <strong>    Descrição:  </strong>   ${description}  <br>
-        <strong>    Prazo:      </strong>   ${deadline}     <br>
-
+        <div class="card-header">
+            <button type="button" class="close" aria-label="Close" onclick="deleteCard(this)">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            
+            <strong>Prioridade:</strong> ${priority} <br>
+            <strong>Descrição:</strong> ${description} <br>
+            <strong>Prazo:</strong> ${deadline} <br>
+        </div>
+        <div class="card-body">
+            <!-- Conteúdo do Card -->
+        </div>
     `;
     column.appendChild(card);
+}
+
+function deleteCard(button) {
+    const card = button.closest('.card');
+    card.remove();
 }
 
 // Exemplo de uso:
