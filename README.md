@@ -7,13 +7,14 @@ Projects create for studying  HTML, CSS and JS  | Each folder references a singl
 <br>
 # Índice:
 1. Buscador de Cep
-2. Cronomêtro
-3. Drag and Drop
-4. Galeria Estilo Pinterest
-5. Hamburguer menu
-6. Image slide
-7. KanBan Board
-8. Projetos curso WEB
+2. Button dark/white
+3. Cronomêtro
+4. Drag and Drop
+5. Galeria Estilo Pinterest
+6. Hamburguer menu
+7. Image slide
+8. KanBan Board
+9. Projetos curso WEB
 
 # Projetos
 <!--Buscador de Cep-->
@@ -29,6 +30,19 @@ Preview:<br>
       <img src="https://github.com/AR097/Practice-Web-Development/assets/107823438/2711229f-cce7-4da7-9f3f-afe3926660fa" width="200"/>
       <img src="https://github.com/AR097/Practice-Web-Development/assets/107823438/13731f2f-dd97-4783-bcf6-26f7eea09ffc" width="200"/>
       <img src="https://github.com/AR097/Practice-Web-Development/assets/107823438/2e56e770-8e90-42bd-b2d8-de8191f1cf3a" width="200"/>
+    </div>
+<!--Button dark/White-->
+<!--Button dark/White-->
+<details>
+  <summary>Button dark/White</summary>
+<br>Descrição: <br>
+Botão que permite ao usuario a alternancia entre os temas escuro e claro em paginas web <br><br>
+📌 <a href="[https://github.com/AR097/Practice-Web-Development/tree/main/BuscadorCEP](https://github.com/AR097/Practice-Web-Development/tree/main/Button_dark_white)">Visite o repositorio deste projeto</a><br><br>
+Preview:<br>
+</details>
+    <div align="left">
+      <img src="https://github.com/AR097/Practice-Web-Development/assets/107823438/77b12405-8c96-4dc9-a896-83c31b05d2cb" width="200"/>
+      <img src="https://github.com/AR097/Practice-Web-Development/assets/107823438/68c3a822-7566-4369-ad6c-114d4bb5cc26" width="200"/>
     </div>
 <!--Cronômetro-->
 <!--Cronômetro-->
