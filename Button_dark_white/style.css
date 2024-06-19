@@ -1,0 +1,29 @@
+/*modo claro*/
+body {
+    background-color: rgb(214, 214, 214);
+    color: black;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/*modo escuro*/
+body.dark-mode {
+    background-color: black;
+    color: white;
+}
+
+/*Botão*/
+#button-togglemode{
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    padding: 10px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+/*ícone */
+#icon {
+    width: 30px;
+    height: 30px;
+}
