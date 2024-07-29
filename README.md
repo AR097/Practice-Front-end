@@ -124,9 +124,9 @@ Preview:<br>
 Preview:<br>
 </details>
     <div align="left">
-      <img src="https://github.com/AR097/Practice-Web-Development/blob/main/Jogo_da_Cobrinha/reference.png" width="200"/>
-      <img src="https://github.com/AR097/Practice-Web-Development/blob/main/Jogo_da_Cobrinha/referencegame.png" width="200"/>
-      <img src="https://github.com/AR097/Practice-Web-Development/blob/main/Jogo_da_Cobrinha/imagescore.png" width="200"/>
+      <img src="https://github.com/AR097/Practice-Web-Development/blob/main/Jogo_da_Cobrinha/reference.png" height="100"/>
+      <img src="https://github.com/AR097/Practice-Web-Development/blob/main/Jogo_da_Cobrinha/referencegame.png" height="100"/>
+      <img src="https://github.com/AR097/Practice-Web-Development/blob/main/Jogo_da_Cobrinha/imagescore.png" height="100"/>
     </div>
 
 <!-- KanBan Board -->
