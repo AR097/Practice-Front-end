@@ -120,7 +120,7 @@ Preview:<br>
   <summary> Jogo da cobrinha </summary>
 <br>Descrição: <br>
 <br> Controle uma cobra que cresce cada vez que come uma maçã, mas cuidado: a cobra não pode colidir com as paredes nem consigo mesma!<br>
-📌 <a href="https://github.com/AR097/Practice-Web-Development/tree/main/Image_Slider">Visite o repositorio deste projeto</a><br><br>
+📌 <a href="https://github.com/AR097/Practice-Web-Development/tree/main/Jogo_da_Cobrinha">Visite o repositorio deste projeto</a><br><br>
 Preview:<br>
 </details>
     <div align="left">
