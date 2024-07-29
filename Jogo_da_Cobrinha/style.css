@@ -5,10 +5,10 @@ body {
     justify-content: center;
     height: 100vh;
     margin: 0;
-    background-image: url(image.png);
+    background-image: url('https://github.com/AR097/Practice-Web-Development/blob/main/Jogo_da_Cobrinha/image.png?raw=true');
     background-repeat: no-repeat;
-    background-size: cover; /* Faz a imagem cobrir toda a página */
-    background-position: center; /* Centraliza a imagem */
+    background-size: cover; 
+    background-position: center; 
     color: rgb(53, 53, 53);
     font-family: "Poppins", sans-serif;
     font-weight: 200;

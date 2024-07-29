@@ -13,6 +13,10 @@ let food = {
 };
 let score = 0;
 
+
+const foodImg = new Image();
+foodImg.src = 'apple-svgrepo-com.svg';
+
 document.addEventListener('keydown', setDirection);
 
 function setDirection(event) {
@@ -80,8 +84,10 @@ function draw() {
         drawRoundedRect(snake[i].x, snake[i].y, box, box, 8, true, true);
     }
 
-    ctx.fillStyle = '#e22227';
-    drawRoundedRect(food.x, food.y, box, box, 10, true, false);
+    ctx.fillStyle = '#ffffff';
+    drawRoundedRect(food.x, food.y, box, box, 8, true, false);
+
+    ctx.drawImage(foodImg, food.x, food.y, box, box);
 
     let snakeX = snake[0].x;
     let snakeY = snake[0].y;
