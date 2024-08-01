@@ -123,13 +123,13 @@ Preview:<br>
 <br> 
 Este projeto é um jogo interativo de bolhas, desenvolvido utilizando a biblioteca Matter.js para simular a física. O jogo apresenta uma série de bolhas coloridas com efeito espelhado, oferecendo uma experiência visualmente atraente e dinâmica.
 <br>
-📌 <a href="https://github.com/AR097/Practice-Web-Development/tree/main/Image_Slider">Visite o repositorio deste projeto</a><br><br>
+📌 <a href="https://github.com/AR097/Practice-Web-Development/tree/main/Interactive%20Bubble">Visite o repositorio deste projeto</a><br><br>
 Preview:<br>
 </details>
     <div align="left">
-      <img src="https://github.com/AR097/Practice-Web-Development/assets/107823438/f956b54a-6f74-4b04-a4ee-b4257d240928" width="200"/>
-      <img src="https://github.com/AR097/Practice-Web-Development/assets/107823438/361d0c20-5e56-42a0-b7e1-f36032d9228b" width="200"/>
-      <img src="https://github.com/AR097/Practice-Web-Development/assets/107823438/c6f281f2-b0c4-4862-9594-4a4856ea89c1" width="200"/>
+      <img src="" width="200"/>
+      <img src="" width="200"/>
+      <img src="" width="200"/>
     </div>
 
 <!-- Jogo da cobrinha  -->
