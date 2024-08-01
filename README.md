@@ -127,9 +127,9 @@ Este projeto é um jogo interativo de bolhas, desenvolvido utilizando a bibliote
 Preview:<br>
 </details>
     <div align="left">
-      <img src="" width="200"/>
-      <img src="" width="200"/>
-      <img src="" width="200"/>
+      <img src="https://github.com/AR097/Practice-Web-Development/blob/main/Interactive%20Bubble/img/tela-inicial.jpg" height="100"/>
+      <img src="https://github.com/AR097/Practice-Web-Development/blob/main/Interactive%20Bubble/img/tela-movimento.jpg" height="100"/>
+      <img src="https://github.com/AR097/Practice-Web-Development/blob/main/Interactive%20Bubble/img/tela-movimento2.jpg" height="100"/>
     </div>
 
 <!-- Jogo da cobrinha  -->
