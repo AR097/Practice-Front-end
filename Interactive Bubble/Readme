@@ -1,15 +1,17 @@
-##Interactive bubble
+Interactive bubble
 
 Este projeto é um jogo interativo de bolhas, desenvolvido utilizando a biblioteca Matter.js para simular a física. O jogo apresenta uma série de bolhas coloridas com efeito espelhado, oferecendo uma experiência visualmente atraente e dinâmica.
-
+<br><br>
 Principais Características:
-Simulação de Física Realista: Utiliza a biblioteca Matter.js para simular a física realista das bolhas.
-Bolhas Coloridas com Gradiente: As bolhas são renderizadas com um gradiente de cor, dando um efeito espelhado e vibrante.
-Responsividade: O jogo se ajusta dinamicamente ao tamanho da tela, garantindo uma experiência de jogo consistente em diferentes dispositivos.
-Interatividade: O jogador pode interagir com as bolhas usando o mouse, movendo-as e criando uma experiência de jogo envolvente.
+- Simulação de Física Realista: Utiliza a biblioteca Matter.js para simular a física realista das bolhas.
+- Bolhas Coloridas com Gradiente: As bolhas são renderizadas com um gradiente de cor, dando um efeito espelhado e vibrante.
+- Responsividade: O jogo se ajusta dinamicamente ao tamanho da tela, garantindo uma experiência de jogo consistente em diferentes dispositivos.
+- Interatividade: O jogador pode interagir com as bolhas usando o mouse, movendo-as e criando uma experiência de jogo envolvente.
+<br><br>
 Tecnologias Utilizadas:
-Matter.js: Biblioteca JavaScript para simulação de física 2D.
-HTML5 e CSS3: Para a estrutura e estilo do jogo.
-JavaScript: Para a lógica do jogo e manipulação do DOM.
-Canvas: Utilizado para criar texturas de gradiente para as bolhas.
+- Matter.js: Biblioteca JavaScript para simulação de física 2D.
+- HTML5 e CSS3: Para a estrutura e estilo do jogo.
+- JavaScript: Para a lógica do jogo e manipulação do DOM.
+- Canvas: Utilizado para criar texturas de gradiente para as bolhas.
+<br><br>
 Este jogo é ideal para demonstrar habilidades em desenvolvimento web interativo, simulação de física e design de interfaces visuais atraentes.
