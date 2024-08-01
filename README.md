@@ -13,9 +13,10 @@ Projects create for studying  HTML, CSS and JS  | Each folder references a singl
 5. Galeria Estilo Pinterest
 6. Hamburguer menu
 7. Image slide
-8. Jogo da corbrinha
-9. KanBan Board
-10. Projetos curso WEB
+8. Interactive Bubble
+9. Jogo da corbrinha
+10. KanBan Board
+11. Projetos curso WEB
 
 # Projetos
 <!--Buscador de Cep-->
@@ -105,6 +106,23 @@ Preview:<br>
   <summary> Image slide </summary>
 <br>Descrição: <br>
 <br> Caixa de slide simples com timer para seguir para a proxima imagem automaticamente e com botoes para o usario clicar. <br>
+📌 <a href="https://github.com/AR097/Practice-Web-Development/tree/main/Image_Slider">Visite o repositorio deste projeto</a><br><br>
+Preview:<br>
+</details>
+    <div align="left">
+      <img src="https://github.com/AR097/Practice-Web-Development/assets/107823438/f956b54a-6f74-4b04-a4ee-b4257d240928" width="200"/>
+      <img src="https://github.com/AR097/Practice-Web-Development/assets/107823438/361d0c20-5e56-42a0-b7e1-f36032d9228b" width="200"/>
+      <img src="https://github.com/AR097/Practice-Web-Development/assets/107823438/c6f281f2-b0c4-4862-9594-4a4856ea89c1" width="200"/>
+    </div>
+    
+<!-- Interactive Bubble  -->
+<!-- Interactive Bubble -->
+<details>
+  <summary> Interactive Bubble </summary>
+<br>Descrição: <br>
+<br> 
+Este projeto é um jogo interativo de bolhas, desenvolvido utilizando a biblioteca Matter.js para simular a física. O jogo apresenta uma série de bolhas coloridas com efeito espelhado, oferecendo uma experiência visualmente atraente e dinâmica.
+<br>
 📌 <a href="https://github.com/AR097/Practice-Web-Development/tree/main/Image_Slider">Visite o repositorio deste projeto</a><br><br>
 Preview:<br>
 </details>
