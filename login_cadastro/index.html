@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login/cadastro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <div class="login-container">
+            <h1>Login</h1>
+            <form id="loginForm">
+                <div class="input-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" required>
+                </div>
+                <div class="input-group">
+                    <label for="password">Senha:</label>
+                    <input type="password" id="password" required>
+                </div>
+                <button type="submit">Entrar</button>
+                <button type="button" id="showRegister">Cadastrar</button>
+            </form>
+            <div id="message"></div>
+        </div>
+
+        <div class="register-container" style="display: none;">
+            <h1>Cadastrar</h1>
+            <form id="registerForm">
+                <div class="input-group">
+                    <label for="regEmail">Email:</label>
+                    <input type="email" id="regEmail" required>
+                </div>
+                <div class="input-group">
+                    <label for="regPassword">Senha:</label>
+                    <input type="password" id="regPassword" required>
+                </div>
+                <div class="input-group">
+                    <label for="regConfirmPassword">Confirmar Senha:</label>
+                    <input type="password" id="regConfirmPassword" required>
+                </div>
+                <button type="submit">Cadastrar</button>
+                <button type="button" id="showLogin">Voltar ao Login</button>
+            </form>
+            <div id="registerMessage"></div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
