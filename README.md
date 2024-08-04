@@ -16,7 +16,8 @@ Projects create for studying  HTML, CSS and JS  | Each folder references a singl
 8. Interactive Bubble
 9. Jogo da corbrinha
 10. KanBan Board
-11. Projetos curso WEB
+11. Login/Cadastro
+12. Projetos curso WEB
 
 # Projetos
 <!--Buscador de Cep-->
@@ -161,7 +162,22 @@ Preview:<br>
       <img src="https://github.com/AR097/Practice-Web-Development/assets/107823438/ca32eacc-ec96-44a8-80be-6104465fddde" width="200"/>
       <img src="https://github.com/AR097/Practice-Web-Development/assets/107823438/2fbb19d3-7053-4e0c-82f3-c5734a1da1d5" width="200"/>
     </div>
-
+    
+<!-- Login/Cadastro -->
+<!-- Login/Cadastro  -->
+<details>
+  <summary> Login/Cadastro </summary>
+<br>Descrição: <br>
+<br>Uma aplicação web simples para login e cadastro de usuários, com autenticação básica e interface intuitiva. <br>
+📌 <a href="https://github.com/AR097/Practice-Web-Development/tree/main/login_cadastro">Visite o repositorio deste projeto</a><br><br>
+Preview:<br>
+</details>
+    <div align="left">
+      <img src="https://github.com/AR097/Practice-Web-Development/blob/main/login_cadastro/imglogin.png" height="100"/>
+      <img src="https://github.com/AR097/Practice-Web-Development/blob/main/login_cadastro/imgcadastro.png" height="100"/>
+      <img src="https://github.com/AR097/Practice-Web-Development/blob/main/login_cadastro/imgcadastromsm.png" height="100"/>
+    </div>
+    
 <!--Projetos curso WEB  -->
 <!--Projetos curso WEB  -->
 <details>
