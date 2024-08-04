@@ -98,8 +98,8 @@ Preview:<br>
 Preview:<br>
 </details>
     <div align="left">
-      <img src="https://github.com/AR097/Practice-Web-Development/assets/107823438/51de994c-19b1-4f72-bd79-cfea169a1b31" width="200"/>
-      <img src="https://github.com/AR097/Practice-Web-Development/assets/107823438/a99a92ee-52e7-485b-8e1b-cb433947d418" width="120"/>
+      <img src="https://github.com/AR097/Practice-Web-Development/assets/107823438/51de994c-19b1-4f72-bd79-cfea169a1b31" height="100"/>
+      <img src="https://github.com/AR097/Practice-Web-Development/assets/107823438/a99a92ee-52e7-485b-8e1b-cb433947d418" height="100"/>
     </div>
 <!-- Image slide  -->
 <!-- Image slide  -->
