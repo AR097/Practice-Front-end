@@ -16,8 +16,9 @@ Projects create for studying  HTML, CSS and JS  | Each folder references a singl
 8. Interactive Bubble
 9. Jogo da corbrinha
 10. KanBan Board
-11. Login/Cadastro
-12. Projetos curso WEB
+12. Login/Cadastro
+13. Modelo-Site_003
+14. Projetos curso WEB
 
 # Projetos
 <!--Buscador de Cep-->
@@ -176,6 +177,21 @@ Preview:<br>
       <img src="https://github.com/AR097/Practice-Web-Development/blob/main/login_cadastro/imglogin.png" height="100"/>
       <img src="https://github.com/AR097/Practice-Web-Development/blob/main/login_cadastro/imgcadastro.png" height="100"/>
       <img src="https://github.com/AR097/Practice-Web-Development/blob/main/login_cadastro/imgcadastromsm.png" height="100"/>
+    </div>
+
+<!-- Login/Cadastro -->
+<!-- Login/Cadastro  -->
+<details>
+  <summary> Modelo-Site_003 </summary>
+<br>Descrição: <br>
+<br>Website front-end projetado especialmente para fotógrafos e editores. Este site combina uma estética moderna e minimalista com uma funcionalidade robusta, ideal para destacar seus serviços, portfólio e recomendações dos clientes. <br>
+📌 <a href="https://github.com/AR097/Practice-Web-Development/tree/main/Modelo-Site_003">Visite o repositorio deste projeto</a><br><br>
+Preview:<br>
+</details>
+    <div align="left">
+      <img src="https://github.com/AR097/Practice-Web-Development/blob/main/Modelo-Site_003/img/Captura%20de%20tela%202024-08-11%20165225.jpg" height="100"/>
+      <img src="https://github.com/AR097/Practice-Web-Development/blob/main/Modelo-Site_003/img/Captura%20de%20tela%202024-08-11%20165254.jpg" height="100"/>
+      <img src="https://github.com/AR097/Practice-Web-Development/blob/main/Modelo-Site_003/img/Captura%20de%20tela%202024-08-11%20165313.jpg" height="100"/>
     </div>
     
 <!--Projetos curso WEB  -->
