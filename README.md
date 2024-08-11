@@ -19,8 +19,9 @@ Projects create for studies, the code may be buggy.<br>
 9. Jogo da corbrinha
 10. KanBan Board
 12. Login/Cadastro
-13. Modelo-Site_003
-14. Projetos curso WEB
+13. Modelo Site_001
+14. Modelo Site_003
+15. Projetos curso WEB
 
 # Projetos
 <!--Buscador de Cep-->
@@ -180,9 +181,24 @@ Preview:<br>
       <img src="https://github.com/AR097/Practice-Web-Development/blob/main/login_cadastro/imgcadastro.png" height="100"/>
       <img src="https://github.com/AR097/Practice-Web-Development/blob/main/login_cadastro/imgcadastromsm.png" height="100"/>
     </div>
+    
+<!-- Modelo-Site_001 -->
+<!-- Modelo-Site_001  -->
+<details>
+  <summary> Modelo Site_001 </summary>
+<br>Descrição: <br>
+<br>Este site foi projetado para atender às demandas básicas, com quatro seções: Página Inicial, Sobre, Serviços e Contato.<br>
+📌 <a href="https://github.com/AR097/Practice-Web-Development/tree/main/Modelo-Site_001">Visite o repositorio deste projeto</a><br><br>
+Preview:<br>
+</details>
+    <div align="left">
+      <img src="https://github.com/AR097/Practice-Web-Development/blob/main/Modelo-Site_001/img/Captura%20de%20tela%202024-08-11%20185026.jpg" height="100"/>
+      <img src="https://github.com/AR097/Practice-Web-Development/blob/main/Modelo-Site_001/img/Captura%20de%20tela%202024-08-11%20185113.jpg" height="100"/>
+      <img src="https://github.com/AR097/Practice-Web-Development/blob/main/Modelo-Site_001/img/Captura%20de%20tela%202024-08-11%20185132.jpg" height="100"/>
+    </div>
 
-<!-- Login/Cadastro -->
-<!-- Login/Cadastro  -->
+<!-- Modelo-Site_003 -->
+<!-- Modelo-Site_003  -->
 <details>
   <summary> Modelo-Site_003 </summary>
 <br>Descrição: <br>
