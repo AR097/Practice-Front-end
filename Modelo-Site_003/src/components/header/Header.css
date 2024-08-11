@@ -1,0 +1,100 @@
+.App-nav {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    background-color: black;
+    z-index: 1002;
+  }
+  
+  .App-nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .App-nav a {
+    color: #bbb;
+    text-decoration: none;
+    padding: 15px 20px;
+    position: relative;
+  }
+  
+  .App-nav a.active::after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 15px;
+    height: 20px;
+    background: url('data:image/svg+xml;utf8,<svg width="20" height="20" viewBox="0 0 24 24" fill="white" xmlns="http://www.w3.org/2000/svg"><path d="M12 2L2 22H22L12 2Z" fill="white"/></svg>') no-repeat center;
+    background-size: contain;
+  }
+  
+.App-nav a.active {
+  color: white;
+}
+
+/* Estilos do menu hamburguer */
+.hamburger-menu {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.hamburger-menu .bar {
+  width: 25px;
+  height: 3px;
+  background-color: #bbb;
+  margin: 4px 0;
+}
+
+/* Media Queries para responsividade */
+@media (max-width: 768px) {
+  .App-nav {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    top: 0;
+    z-index: 1002;
+  }
+  .hamburger-menu {
+    display: flex;
+    margin-left: 80%;
+    margin-top: 5px;
+  }
+
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #1b1b1b;
+    position: absolute;
+    top: 25px;
+    right: 20px;
+    width:150px;
+    border-radius: 5px;
+    z-index: 1001;
+  }
+
+  .nav-links.open {
+    display: flex;
+  }
+
+  .App-nav ul {
+    flex-direction: column;
+    gap: 20px;
+    display: none;
+    text-align:center; 
+    padding: 20px;
+  }
+
+  .App-nav a {
+    padding: 20px;
+  }
+  .App-nav a:hover{
+    color: white;
+  }
+}

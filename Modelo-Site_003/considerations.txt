@@ -1,0 +1,3 @@
+Install slide bibilioteca:
+### `npm install react-slick slick-carousel
+`

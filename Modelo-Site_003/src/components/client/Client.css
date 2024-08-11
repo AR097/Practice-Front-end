@@ -1,0 +1,99 @@
+.app-clients {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    padding-top: 50px;
+}
+.title {
+    margin-bottom: -22px;
+    width: fit-content;
+    padding: 5px 10px;
+    background-color: rgb(0, 0, 0);
+    z-index: 1001;
+    position: relative;
+}
+.content-clients-line {
+    border-top: solid white 1px; /* line title */
+    display: flex;
+    flex-wrap: wrap;
+    height: fit-content;
+    width: 100%;
+    padding-top: 50px;
+    justify-content: center;
+}
+.content-clients {
+    display: flex;
+    flex-wrap: wrap;
+    height: fit-content;
+    width: 75%;
+    justify-content: center;
+}
+.box-client {
+    color: rgb(0, 0, 0);
+    display: flex;
+    margin-left: 20%;
+}
+.box-client img {
+    padding: 10px 10px 200px 10px;
+    background-color: rgb(255, 255, 255);
+    width: 210px;
+    height: auto; /* Mantém a proporção */
+    min-width: 210px; /* Evita que a imagem encolha */
+    min-height: 210px; /* Evita que a imagem encolha */
+    flex-shrink: 0; /* Evita que a imagem encolha */
+}
+.box-client .text-client {
+    width: 210px;
+    margin-top: -200px;
+}
+.box-client h1 {
+    margin: 0;
+    font-size: 23px;
+}
+.box-client p {
+    font-size: 15px;
+}
+
+/* Media queries para responsividade */
+@media (max-width: 768px) {
+    .content-clients {
+        width: 50%;
+    }
+    .box-client {
+        margin-left: 10%;
+        display: flex;
+    }
+    .box-client img {
+        width: 150px;
+        min-width: 150px;
+        min-height: 150px;
+    }
+    .box-client .text-client {
+        width:150px;
+        padding: 10px 10px 0 10px;
+        margin-top: -210px;
+    }
+}
+
+@media (max-width: 480px) {
+    .content-clients {
+        width: 50%;
+    }
+    .box-client {
+        margin-left: 0;
+        align-items: center;
+    }
+    .box-client img {
+        width: 100px;
+        min-width: 100px;
+        min-height: 100px;
+    }
+    .box-client .text-client {
+        width:150px;
+        padding: 10px 10px 0 10px;
+        margin-top: -210px;
+    }
+}

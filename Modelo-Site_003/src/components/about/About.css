@@ -1,0 +1,154 @@
+.app-about{
+  padding-top: 50px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+.title{
+  margin-bottom: -22px;
+  width: fit-content;
+  padding: 5px 10px;
+  background-color: rgb(0, 0, 0);
+  z-index: 1001;
+  position: relative;
+}
+.content-about {
+  display: flex;
+  flex-direction: column;
+  border-top: solid white 1px;
+  align-items: center;
+  padding-top: 25px;
+}
+
+  .content2-about{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+  }
+  .Focus-text{
+    font-size: larger;
+    color: rgba(255, 255, 255, 0.151);
+    width: 100%;
+    .text-upper{
+        padding-left: 0;
+        margin-bottom: -50px;
+    }
+    .text-and{
+        color: rgba(255, 255, 255, 0.062);
+        font-size: 80px;
+    }
+    .text-lower{
+      margin-top: -50px;
+      padding-left: 50%;
+    }
+  }
+  .experience-about{
+    height: 150px;
+    width: 150px;
+    background-color: rgb(41, 38, 38);
+    border-radius: 50%;
+    margin-top:70%;
+    margin-left: 65%;
+    position: relative;
+    h1{
+      padding-top: 10px;
+    }
+    p{
+      margin-top: -20px;
+    }
+  }
+  .box-about-photo-into{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+
+  }
+  .image-about{
+    height: fit-content;
+    width: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    img{
+      width: 100%;
+      height: 100%;
+      padding: 5px 5px 20px 5px;
+      background-color: white;
+    }
+  }
+  .text-about{
+    margin-top: -20px;    
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-left: 25px;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    align-items: baseline;
+    h1{
+      color: rgba(255, 255, 255, 0.11);
+      font-size: 25px;
+    }
+  }
+  @media (max-width: 768px) {
+    .content2-about {
+      display: flex;
+      flex-direction: column;
+    }
+    .box-about-photo-into{
+      margin-top: -200px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      img{
+        width: 40%;
+      }
+      .text-about{
+        margin-top: 10px;
+      }
+    } 
+    .Focus-text{
+      margin-top: 0px;
+      height: fit-content;
+      padding: 10px 10px  10px  0;
+    }
+    .text-upper {
+      margin-left: 45%;
+      text-align: center;
+      font-size: larger;
+    }
+    .text-lower {
+      margin-left: 20%;
+      text-align: center;
+      font-size:larger;
+    }
+    .text-and {
+      margin-left: 44%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .title {
+      font-size: 1.2em;
+      padding: 5px;
+    }
+    .text-and {
+      font-size: 50px;
+    }
+    .experience-about {
+      height: 100px;
+      width: 100px;
+    }
+    .experience-about h1 {
+      font-size: 1em;
+    }
+    .experience-about p {
+      font-size: 0.8em;
+    }
+    .image-about img {
+      width: 100%;
+      height: auto;
+    }
+  }
