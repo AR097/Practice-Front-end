@@ -1,0 +1,52 @@
+
+.containerhome {
+  margin: 100 auto;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  gap: 0; 
+  align-items: center; 
+}
+
+.banner {
+  background-color: none;
+  color: var(--textogeral);
+  padding: 30px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.banner h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+.bowyer-tech {
+  color: var(--nomeempresa);
+}
+.banner p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+.banner button {
+  padding: 10px 20px;
+  font-size: 1em;
+  background-color: var(--fundobutton);
+  color: var(--textogeral);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.banner button:hover {
+  background-color: var(--fundolinks);
+  color:var(--textogeral);
+}
+@media (max-width: 768px) {
+  .containerhome {
+    margin-top: 100px;
+  }
+}

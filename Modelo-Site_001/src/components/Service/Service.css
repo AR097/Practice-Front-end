@@ -1,0 +1,45 @@
+.titleservice {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.services-page {
+  padding: 20px;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+.service-item {
+  text-align: center;
+}
+
+.service-icon {
+  margin-bottom: 10px;
+}
+
+.service-name {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/*medios*/
+@media (max-width: 991px) {
+  .services-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/*pequenos*/
+@media (max-width: 767px) {
+  .services-grid {
+    grid-template-columns: 1fr 1fr ;
+  }
+
+  .titleservice {
+    margin-bottom: 1em;
+  }
+}

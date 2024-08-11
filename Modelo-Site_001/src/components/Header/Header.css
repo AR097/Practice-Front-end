@@ -1,0 +1,73 @@
+.header {
+  background-color: var(--fundoheader);
+  padding: 10px 0;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  box-shadow: 0 2px 5px var(--sombraheader);
+}
+
+.containerheader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.header .bowyer-tech {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: var(--nomeempresa);
+}
+
+.nav {
+  display: flex;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-item {
+  padding: 20px 0;
+}
+
+.nav-item a {
+  color:var(--textogeral);
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px 15px;
+  border-radius: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.nav-item a:hover {
+  text-decoration: none;
+  background-color: var(--fundolinks);
+  border-radius: 10px;
+  box-shadow: 0 0 10px var(--sombralinks);
+}
+
+.nav-item a:hover,
+.nav-item a:focus {
+  outline: none;
+}
+
+@media (max-width: 768px) {
+  .containerheader {
+    font-size: 0.9em;
+  }
+  .nav-item {
+  padding: 15 0;
+  }
+  .nav-item a {
+    padding: 15px 5px;
+  }
+}

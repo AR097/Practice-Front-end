@@ -1,0 +1,31 @@
+:root {
+  --fundopage: rgb(0, 0, 0);
+  --nomeempresa: rgb(2, 57, 139);
+  --textogeral: white;
+
+  --fundoheader:  #000000f5;
+  --sombraheader: rgba(129, 127, 127, 0.5);
+
+  --fundolinks: rgb(2, 57, 139);
+  --sombralinks: rgba(129, 127, 127, 0.5);
+  
+  --fundobutton: #002d5e;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+h2 {
+  font-size: 2rem;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}

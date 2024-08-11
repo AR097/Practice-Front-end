@@ -1,0 +1,29 @@
+*{
+  margin: 0;
+  padding: 0;
+  
+}
+
+.no-scroll {
+  overflow: hidden;
+}
+
+body{
+  background-color: var(--fundopage);
+  color: var(--textogeral)
+}
+
+section {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+  section{
+    height: 100%;
+  }
+}
