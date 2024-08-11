@@ -4,6 +4,8 @@ Projects create for studying  HTML, CSS and JS  | Each folder references a singl
 ![Open Issues](https://img.shields.io/github/issues/AR097/Practice-Web-Development)
 ![Forks](https://img.shields.io/github/forks/AR097/Practice-Web-Development?style=social)
 ![Stars](https://img.shields.io/github/stars/AR097/Practice-Web-Development?style=social)
+# ---Important--- 
+Projects create for studies, the code may be buggy.<br>
 <br>
 # Índice:
 1. Buscador de Cep
@@ -212,23 +214,3 @@ Preview:<br>
       <img src="https://github.com/AR097/Practice-Web-Development/assets/107823438/e8d76c8f-628c-474a-82e5-7233b8497771" width="200"/>
       <img src="https://github.com/AR097/Practice-Web-Development/assets/107823438/f14d62e4-9bfe-4f80-a9c5-71c75fce87e6" width="200"/>
     </div>
-
-
-<!-- 
-<details>
-  <summary> </summary>
-<br>Descrição: <br>
-<br><br>
-📌 <a href="">Visite o repositorio deste projeto</a><br><br>
-Preview:<br>
-</details>
-    <div align="left">
-      <img src="https://github.com/AR097/Practice-Web-Development/assets/107823438/f956b54a-6f74-4b04-a4ee-b4257d240928" width="200"/>
-      <img src="https://github.com/AR097/Practice-Web-Development/assets/107823438/361d0c20-5e56-42a0-b7e1-f36032d9228b" width="200"/>
-      <img src="https://github.com/AR097/Practice-Web-Development/assets/107823438/c6f281f2-b0c4-4862-9594-4a4856ea89c1" width="200"/>
-    </div>
--->
-
-# ---Important--- 
-Projects create for studies, the code may be buggy.<br>
-Files and folders reorganized in May/2024<br>
