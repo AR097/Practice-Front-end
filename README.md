@@ -20,8 +20,9 @@ Projects create for studies, the code may be buggy.<br>
 10. KanBan Board
 12. Login/Cadastro
 13. Modelo Site_001
-14. Modelo Site_003
-15. Projetos curso WEB
+14. Modelo Site_002
+15. Modelo Site_003
+16. Projetos curso WEB
 
 # Projetos
 <!--Buscador de Cep-->
@@ -195,6 +196,21 @@ Preview:<br>
       <img src="https://github.com/AR097/Practice-Web-Development/blob/main/Modelo-Site_001/img/Captura%20de%20tela%202024-08-11%20185026.jpg" height="100"/>
       <img src="https://github.com/AR097/Practice-Web-Development/blob/main/Modelo-Site_001/img/Captura%20de%20tela%202024-08-11%20185113.jpg" height="100"/>
       <img src="https://github.com/AR097/Practice-Web-Development/blob/main/Modelo-Site_001/img/Captura%20de%20tela%202024-08-11%20185132.jpg" height="100"/>
+    </div>
+
+<!-- Modelo-Site_002 -->
+<!-- Modelo-Site_002  -->
+<details>
+  <summary> Modelo Site_002 </summary>
+<br>Descrição: <br>
+<br>Modelo de site empresarial de uma única página, desenvolvido em HTML, js e CSS, com um design intuitivo que destaca diretamente o seu ramo de atividade. Este modelo é cuidadosamente projetado para enfatizar o espaço físico da empresa, apresentar a equipe, exibir o portfólio de forma atrativa e listar os serviços oferecidos pela empresa. Com uma experiência de navegação simples e envolvente, ele dispensa páginas secundárias, mas inclui links estratégicos para redes sociais, contato e formulários de orçamento. Todos os detalhes essenciais sobre sua empresa são apresentados de maneira clara e acessível em um só lugar. Ideal para empresas que buscam uma presença online elegante e eficaz, este modelo garante que seus visitantes tenham uma visão completa e atraente de tudo o que sua empresa tem a oferecer.<br>
+📌 <a href="https://github.com/AR097/Practice-Web-Development/tree/main/Modelo-Site_002">Visite o repositorio deste projeto</a><br><br>
+Preview:<br>
+</details>
+    <div align="left">
+      <img src="https://github.com/AR097/Practice-Web-Development/blob/main/Modelo-Site_002/img-telas-do-projeto/Captura%20de%20tela%202024-08-11%20234936.jpg" height="100"/>
+      <img src="https://github.com/AR097/Practice-Web-Development/blob/main/Modelo-Site_002/img-telas-do-projeto/Captura%20de%20tela%202024-08-11%20234913.jpg" height="100"/>
+      <img src="https://github.com/AR097/Practice-Web-Development/blob/main/Modelo-Site_002/img-telas-do-projeto/Captura%20de%20tela%202024-08-11%20234853.jpg" height="100"/>
     </div>
 
 <!-- Modelo-Site_003 -->
