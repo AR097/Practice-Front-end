@@ -241,7 +241,7 @@ Preview:<br>
     <div align="left">
       <img src="https://github.com/AR097/Practice-Web-Development/blob/main/Netflix_replicando_PAGINA_USERS/screen/netflix.com.png" height="100"/>
       <img src="https://github.com/AR097/Practice-Web-Development/blob/main/Netflix_replicando_PAGINA_USERS/screen/site.desenvolvido.png" height="100"/>
-      <img src="https://github.com/AR097/Practice-Web-Development/blob/main/Netflix_replicando_PAGINA_USERS/screen/site.desenvolvido.select.png" height="100"/>
+      <img src="https://github.com/AR097/Practice-Web-Development/blob/main/Netflix_replicando_PAGINA_USERS/screen/site.desenvolvido.select.png?raw=true" height="100"/>
     </div>
     
 <!--Projetos curso WEB  -->
