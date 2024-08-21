@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+.container {
+    background-image: url('BR-pt-20240819-POP_SIGNUP_TWO_WEEKS-perspective_WEB_74ce8a77-b454-4b56-b9f2-2b3ca6d9a4b9_large.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+    position: absolute;
+    margin-top: -30px;
+    top: 0;
+}
+
+header img {
+    width: 150px;
+}
+
+.menu-idioma_login{
+    display: flex;
+    gap: 20px;
+}
+
+header .select {
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+header select {
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: 14px;
+}
+
+header button {
+    background-color: rgb(253, 79, 79);
+    padding: 10px 20px;
+    color: aliceblue;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.login-container {
+    background-color: rgba(0, 0, 0, 0.75);
+    padding: 60px;
+    border-radius: 8px;
+    max-width: 350px;
+    width: 100%;
+}
+
+.login-form h1 {
+    margin-bottom: 30px;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 4px;
+    background-color: #333;
+    color: white;
+    font-size: 16px;
+}
+
+.login-btn {
+    width: 100%;
+    padding: 15px;
+    background-color: rgb(253, 79, 79);
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.help-section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.help-section a {
+    color: #757575;
+    text-decoration: none;
+}
+
+.signup-now {
+    margin-top: 30px;
+    font-size: 16px;
+}
+
+.signup-now a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.terms {
+    margin-top: 20px;
+    font-size: 12px;
+    color: #757575;
+}
