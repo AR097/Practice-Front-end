@@ -22,8 +22,9 @@ Projects create for studies, the code may be buggy.<br>
 13. Modelo Site_001
 14. Modelo Site_002
 15. Modelo Site_003
-16. Netflix_replicando_PAGINA_USERS
-17. Projetos curso WEB
+16. Netflix_replicando_PAGINA_LOGIN
+17. Netflix_replicando_PAGINA_USERS
+18. Projetos curso WEB
 
 # Projetos
 <!--Buscador de Cep-->
@@ -228,7 +229,21 @@ Preview:<br>
       <img src="https://github.com/AR097/Practice-Web-Development/blob/main/Modelo-Site_003/img/Captura%20de%20tela%202024-08-11%20165254.jpg" height="100"/>
       <img src="https://github.com/AR097/Practice-Web-Development/blob/main/Modelo-Site_003/img/Captura%20de%20tela%202024-08-11%20165313.jpg" height="100"/>
     </div>
-
+    
+<!-- Netflix_replicando_PAGINA_LOGIN -->
+<!-- Netflix_replicando_PAGINA_LOGIN  -->
+<details>
+  <summary> Netflix_replicando_PAGINA_LOGIN </summary>
+<br>Descrição: <br>
+<br> Copy of the page on Netflix - LOGIN page. (Project developed for practice)<br>
+📌 <a href="https://github.com/AR097/Practice-Web-Development/tree/main/Netflix_replicando_PAGINA_USERS">Visite o repositorio deste projeto</a><br><br>
+Preview:<br>
+</details>
+    <div align="left">
+      <img src="https://github.com/AR097/Practice-Web-Development/blob/main/Netflix_replicando_PAGINA_LOGIN/screem/image%20copy.png" height="100"/>
+      <img src="https://github.com/AR097/Practice-Web-Development/blob/main/Netflix_replicando_PAGINA_LOGIN/screem/image.png" height="100"/>
+    </div>
+    
 <!-- Netflix_replicando_PAGINA_USERS -->
 <!-- Netflix_replicando_PAGINA_USERS  -->
 <details>
